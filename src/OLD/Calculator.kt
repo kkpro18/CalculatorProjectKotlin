@@ -1,3 +1,5 @@
+package OLD
+
 class Calculator {
     fun calculate(): Float {
         print("Enter the first number: ")
