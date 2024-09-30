@@ -19,7 +19,7 @@ class Pizza {
             } catch (exception: Exception) {
                 println("Incorrect Input: Try Again")
             } finally {
-                if (answer != null){
+                if (answer != null && answer!! != 0.0){
                     break
                 }
             }
