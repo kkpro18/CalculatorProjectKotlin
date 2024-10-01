@@ -44,7 +44,7 @@ fun whichIsBetterDeal(pizza1Size: Double?, pizza2Size: Double?, pizza1Price: Dou
             println("Pizza 1 ($pizza1Size inches for £$pizza1Price) is better value for money, giving you ${String.format("%.2f",extraPizzaPercentage)}% more pizza.")
         } else if (pizza2Worth > pizza1Worth){
             val extraPizzaPercentage = (pizza2Worth - pizza1Worth) / pizza1Worth * 100
-            println("Pizza 2 ($pizza2Size inches for £$pizza1Price) is better value for money, giving you ${String.format("%.2f",extraPizzaPercentage)}% more pizza.")
+            println("Pizza 2 ($pizza2Size inches for £$pizza2Price) is better value for money, giving you ${String.format("%.2f",extraPizzaPercentage)}% more pizza.")
         } else {
             println("Pizza Error Occured :<")
         }
